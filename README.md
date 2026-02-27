@@ -4,4 +4,4 @@
 
 📅 Poslední změna: 27. 2. 2026
 
-![Spící kočička](https://cataas.com/cat/sleeping)
+![Vtipná kočička](https://cataas.com/cat/funny)
