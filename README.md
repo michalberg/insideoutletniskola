@@ -1,5 +1,5 @@
-# Inside Out
+# 🌿 Inside Out
 
-Web letní školy Inside Out.
+🌞 Web letní školy Inside Out.
 
-Poslední změna: 27. 2. 2026
+📅 Poslední změna: 27. 2. 2026
