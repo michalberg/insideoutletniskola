@@ -1,4 +1,4 @@
-# 🌿 Inside Out
+# 🌿 Inside Out Pedagogies
 
 🌞 Web letní školy Inside Out.
 
