@@ -1,0 +1,174 @@
+{{- define "main" }}
+    {{- partial "sections/event-title.html"
+        (dict
+        "title" .Site.Params.themes.event.title
+        "location" .Site.Params.themes.event.location
+        "startDate" .Site.Params.themes.event.startDate
+        "backgroundImage" .Site.Params.themes.event.images.titleBackground
+        "eventbriteId" .Site.Params.themes.event.callToAction.eventbrite.eventId
+        "ctaUrl" .Site.Params.themes.event.callToAction.other.url
+        "ctaSecondary" .Site.Params.themes.event.callToActionSecondary
+        )
+    }}
+
+    {{ $eventStartDate := or .Site.Params.themes.event.startDate now | time }}
+    {{ $eventEndDate := or .Site.Params.themes.event.endDate now | time }}
+    {{ $dayInSeconds := 86400 }}
+    {{ partial "sections/event-highlights.html" (
+        dict
+        "title" .Site.Params.themes.event.title
+        "subtitle" .Site.Params.themes.event.slogan
+        "description" .Site.Params.themes.event.description
+        "logo" .Site.Params.themes.event.images.logo
+        "numberOfSpeakers" ((where .Site.RegularPages "Section" "speakers") | len)
+        "numberOfSessions" (where (where .Site.RegularPages "Section" "sessions") "Params.isServiceSession" false | len)
+        "numberOfDays" (div (sub (add $eventEndDate.Unix $dayInSeconds) $eventStartDate.Unix) $dayInSeconds)
+        "location" .Site.Params.themes.event.location )
+    }}
+
+    {{- $tracks := slice }}
+    {{- range (.Site.RegularPages.GroupByParam "track") }}
+        {{- $tracks = $tracks | append (.Key) }}
+    {{- end }}
+
+    {{- if gt ($tracks | len) 1 }}
+        {{- partial "sections/conference-tracks.html" (
+            dict
+            "tracks" $tracks
+            "sessionsUrl" (.Site.GetPage "sessions").RelPermalink
+            )
+        }}
+    {{- end }}
+
+    <!-- For Whom section -->
+    <div class="section-container">
+        <section class="section section--long iops-for-whom">
+            <h2 class="iops-section-heading">Who Is This Summer School For?</h2>
+            <p class="iops-section-lead">Inside Out Pedagogies is designed for anyone who believes education can be different — and wants to do something about it.</p>
+            <div class="iops-cards">
+                <div class="iops-card">
+                    <p class="iops-card__title">Teachers &amp; Educators</p>
+                    <p class="iops-card__text">Practitioners in primary, secondary, or higher education looking for fresh approaches to teaching and learning.</p>
+                </div>
+                <div class="iops-card">
+                    <p class="iops-card__title">School Leaders</p>
+                    <p class="iops-card__text">Principals, coordinators, and curriculum designers seeking to build more humane and effective schools.</p>
+                </div>
+                <div class="iops-card">
+                    <p class="iops-card__title">Education Researchers</p>
+                    <p class="iops-card__text">Academics and PhD students working on transformative, relational, or inquiry-based approaches to education.</p>
+                </div>
+                <div class="iops-card">
+                    <p class="iops-card__title">NGO &amp; Non-formal Educators</p>
+                    <p class="iops-card__text">Facilitators, trainers, and youth workers in non-formal education who want to deepen their practice.</p>
+                </div>
+                <div class="iops-card">
+                    <p class="iops-card__title">Students &amp; Early-Career Practitioners</p>
+                    <p class="iops-card__text">Those at the beginning of their educational journey who want to shape their professional identity from the start.</p>
+                </div>
+                <div class="iops-card">
+                    <p class="iops-card__title">Curious Minds</p>
+                    <p class="iops-card__text">Anyone with a passionate interest in rethinking education, regardless of their formal role or background.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Benefits section -->
+    <div class="section-container section-container--dimmed">
+        <section class="section section--long iops-benefits">
+            <h2 class="iops-section-heading">What You Will Take Away</h2>
+            <p class="iops-section-lead">Five days of intensive learning, honest conversations, and practical experimentation in a beautiful setting.</p>
+            <div class="iops-cards">
+                <div class="iops-card">
+                    <p class="iops-card__title">New Perspectives on Learning</p>
+                    <p class="iops-card__text">Encounter approaches to education you haven't tried yet — and understand why they work.</p>
+                </div>
+                <div class="iops-card">
+                    <p class="iops-card__title">Practical Tools &amp; Methods</p>
+                    <p class="iops-card__text">Leave with concrete facilitation and teaching strategies you can use in your classroom or organisation from day one.</p>
+                </div>
+                <div class="iops-card">
+                    <p class="iops-card__title">A Community of Practice</p>
+                    <p class="iops-card__text">Connect with educators from across Europe who share your values and challenges. Many attendees stay in touch long after the event.</p>
+                </div>
+                <div class="iops-card">
+                    <p class="iops-card__title">Space for Reflection</p>
+                    <p class="iops-card__text">The programme is designed with intentional pauses — time to process, integrate, and make sense of new ideas.</p>
+                </div>
+                <div class="iops-card">
+                    <p class="iops-card__title">Inspiration &amp; Renewed Energy</p>
+                    <p class="iops-card__text">Return to your work with fresh motivation and a clearer sense of what kind of educator you want to be.</p>
+                </div>
+                <div class="iops-card">
+                    <p class="iops-card__title">Accommodation &amp; Meals Included</p>
+                    <p class="iops-card__text">The programme fee covers full board and accommodation, so you can focus entirely on learning and connection.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    {{- $topSpeakers := slice }}
+    {{- range (where .Site.Pages "Section" "speakers") }}
+        {{- if .Params.isTopSpeaker }}
+            {{- $topSpeakers = $topSpeakers | append (
+                dict
+                "profileUrl" .RelPermalink
+                "avatarResource" (.Resources.GetMatch "avatar.*")
+                "name" .Title
+                "description" .Params.tagLine
+                "linkedinUrl" .Params.linkedinUrl
+                "xUrl" .Params.xUrl
+                "companyUrl" .Params.company
+                )
+            }}
+        {{- end }}
+    {{- end }}
+
+    {{- if gt ($topSpeakers | len) 0 }}
+        {{ partial "sections/featured-speakers.html" (
+            dict
+            "speakers" $topSpeakers
+            "speakersUrl" (.Site.GetPage "speakers").RelPermalink
+            )
+        }}
+    {{- end }}
+
+    {{- $featuredSessions := slice }}
+    {{- range (where .Site.Pages "Section" "sessions") }}
+        {{- if (in .Site.Params.themes.event.featuredSessions .Params.sessionId) }}
+            {{- $featuredSessionPage := . }}
+            {{- $featuredSessionSpeakers := slice }}
+            {{- range .Params.speakers }}
+                {{- $speaker :=  . }}
+                {{- $featuredSessionSpeakers = $featuredSessionSpeakers | append (
+                    dict
+                    "avatarResource" ($featuredSessionPage.Resources.GetMatch (printf "avatar-%s.*" $speaker.id))
+                    "name" $speaker.fullName
+                    "slogan" $speaker.tagLine
+                    )
+                }}
+            {{- end }}
+            {{- $featuredSessions = $featuredSessions | append (
+                dict
+                "sessionUrl" $featuredSessionPage.RelPermalink
+                "sessionName" $featuredSessionPage.Title
+                "sessionDescription" $featuredSessionPage.RawContent
+                "speakers" $featuredSessionSpeakers
+                "categories" $featuredSessionPage.Params.categories
+                )
+            }}
+        {{- end }}
+    {{- end }}
+
+    {{- if gt ($featuredSessions | len) 0 }}
+        {{ partial "sections/featured-sessions.html" (
+            dict
+            "sessions" $featuredSessions
+            "sessionsUrl" (.Site.GetPage "sessions").RelPermalink
+            )
+        }}
+    {{- end }}
+
+    {{- partial "sections/our-sponsors.html" (dict "sponsors" .Site.Params.themes.event.sponsors) -}}
+{{- end }}

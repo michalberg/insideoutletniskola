@@ -1,6 +1,6 @@
 ---
 title: "Keynote: Democratic Schools — Utopia or Possibility?"
-date: 2026-07-02T09:00:00
+date: 2026-08-16T09:00:00
 params:
   isServiceSession: false
   isScheduled: true

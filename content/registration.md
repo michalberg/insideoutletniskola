@@ -4,6 +4,14 @@ type: page
 layout: single
 ---
 
+<div style="text-align:center;margin:2rem 0 1rem;">
+  <a href="https://forms.gle/placeholder" target="_blank" rel="noopener"
+     style="display:inline-block;padding:0.9rem 2.5rem;background:#212529;color:#fff;
+            text-decoration:none;border-radius:4px;font-size:1.1rem;font-weight:bold;letter-spacing:0.04em;">
+    Register Now →
+  </a>
+</div>
+
 ## Register for Inside Out Pedagogies 2026
 
 We welcome applications from educators, researchers, practitioners, and students
@@ -44,8 +52,8 @@ from the programme. The form takes about 20 minutes to complete.
 
 <div style="text-align:center;margin:3rem 0;">
   <a href="https://forms.gle/placeholder" target="_blank" rel="noopener"
-     style="display:inline-block;padding:1rem 2.5rem;background:#c8d600;color:#212529;
-            text-decoration:none;border-radius:4px;font-size:1.2rem;font-weight:bold;">
+     style="display:inline-block;padding:1rem 2.5rem;background:#212529;color:#fff;
+            text-decoration:none;border-radius:4px;font-size:1.2rem;font-weight:bold;letter-spacing:0.04em;">
     Register Now →
   </a>
 </div>
