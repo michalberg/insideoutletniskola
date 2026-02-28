@@ -1,0 +1,41 @@
+{{ define "main" }}
+<div class="section-container">
+    <section class="section">
+        <header class="section__header">
+            <h1 class="heading heading--1">{{ .Title }}</h1>
+            {{ with .Content }}<div class="section__intro">{{ . }}</div>{{ end }}
+        </header>
+        <div class="team-grid">
+            {{ range .Pages }}
+            <article class="team-card">
+                {{ with .Resources.GetMatch "photo.*" }}
+                <div class="team-card__photo">
+                    <img src="{{ .RelPermalink }}" alt="{{ $.Title }}" />
+                </div>
+                {{ end }}
+                <div class="team-card__body">
+                    <h2 class="team-card__name heading heading--2">{{ .Title }}</h2>
+                    {{ with .Params.role }}
+                    <p class="team-card__role">{{ . }}</p>
+                    {{ end }}
+                    {{ with .Params.organisation }}
+                    <p class="team-card__org">{{ . }}</p>
+                    {{ end }}
+                    {{ with .Params.bio }}
+                    <div class="team-card__bio">{{ . | markdownify }}</div>
+                    {{ end }}
+                    <div class="team-card__links">
+                        {{ with .Params.email }}
+                        <a class="team-card__link" href="mailto:{{ . }}">{{ . }}</a>
+                        {{ end }}
+                        {{ with .Params.website }}
+                        <a class="team-card__link" href="{{ . }}" target="_blank" rel="noopener">Website →</a>
+                        {{ end }}
+                    </div>
+                </div>
+            </article>
+            {{ end }}
+        </div>
+    </section>
+</div>
+{{ end }}
