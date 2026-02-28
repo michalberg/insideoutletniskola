@@ -4,6 +4,7 @@ date: 2026-08-17T11:00:00
 params:
   isServiceSession: false
   isScheduled: true
+  startsAt: 2026-08-17T11:00:00
   track: Practice
   room: Workshop Room A
   categories:

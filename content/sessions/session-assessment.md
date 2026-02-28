@@ -4,6 +4,7 @@ date: 2026-08-15T16:00:00
 params:
   isServiceSession: false
   isScheduled: true
+  startsAt: 2026-08-15T16:00:00
   track: Research
   room: Seminar Room
   categories:

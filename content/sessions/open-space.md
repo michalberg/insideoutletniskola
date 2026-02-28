@@ -4,6 +4,7 @@ date: 2026-08-16T14:00:00
 params:
   isServiceSession: false
   isScheduled: true
+  startsAt: 2026-08-16T14:00:00
   track: Open Space
   room: Various Spaces
   categories:

@@ -4,6 +4,7 @@ date: 2026-08-19T15:00:00
 params:
   isServiceSession: false
   isScheduled: true
+  startsAt: 2026-08-19T15:00:00
   track: Plenary
   room: Main Hall
   categories:
