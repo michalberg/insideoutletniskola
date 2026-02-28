@@ -26,20 +26,6 @@
         "location" .Site.Params.themes.event.location )
     }}
 
-    {{- $tracks := slice }}
-    {{- range (.Site.RegularPages.GroupByParam "track") }}
-        {{- $tracks = $tracks | append (.Key) }}
-    {{- end }}
-
-    {{- if gt ($tracks | len) 1 }}
-        {{- partial "sections/conference-tracks.html" (
-            dict
-            "tracks" $tracks
-            "sessionsUrl" (.Site.GetPage "sessions").RelPermalink
-            )
-        }}
-    {{- end }}
-
     <!-- For Whom section -->
     <div class="section-container">
         <section class="section section--long iops-for-whom">
