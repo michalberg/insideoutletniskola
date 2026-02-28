@@ -25,23 +25,22 @@ menu:
     - name: Our Team
       url: /team/
       weight: 50
-    - name: Application
-      url: /application/
+    - name: Registration
+      url: /registration/
       weight: 60
 
 params:
   themes:
     event:
       title: Inside Out Pedagogies
-      shortTitle: IOPS
-      startDate: 2026-07-01
-      endDate: 2026-07-03
-      location: Nisko, Poland
+      shortTitle: LOGO
+      startDate: 2026-08-15
+      endDate: 2026-08-19
+      location: Předklášteří, Czechia
       address:
-        - Conference Centre
-        - ul. Wolności 1
-        - 37-400 Nisko
-        - Poland
+        - Předklášteří
+        - 666 02 Předklášteří
+        - Czechia
 
       slogan: Rethinking Education From the Inside Out
       description: |
@@ -52,14 +51,14 @@ params:
         that challenge the status quo and reimagine what education can be.
 
       directions: |
-        **By train:** Take a train to Rzeszów or Stalowa Wola and then a local bus or taxi to Nisko.
-        The conference centre is a 10-minute walk from the main bus stop.
+        **By train:** Take a train to Tišnov station, then a short taxi or bus ride to Předklášteří.
+        The venue is approximately 5 minutes from Tišnov.
 
-        **By car:** Nisko is located on the route S19. Take exit Nisko and follow signs
-        to the town centre. Free parking is available at the conference venue.
+        **By car:** Předklášteří is located near Tišnov, about 30 km north of Brno.
+        Follow road no. 386 from Brno towards Tišnov. Free parking is available at the venue.
 
-        **From Kraków:** Approx. 2 hours by car or 2.5 hours by train+bus.
-        **From Warsaw:** Approx. 4 hours by car or 4.5 hours by public transport.
+        **From Brno:** Approx. 30 minutes by car or 45 minutes by train.
+        **From Prague:** Approx. 2.5 hours by car or 3 hours by train.
 
       aboutUs: |
         **Inside Out Pedagogies** is a community of educators committed to
@@ -78,12 +77,12 @@ params:
       favicon: favicon.ico
 
       map:
-        embeddableMapUrl: "https://www.openstreetmap.org/export/embed.html?bbox=22.12,50.51,22.16,50.53&layer=mapnik&marker=50.52,22.14"
-        viewLargerMapUrl: "https://www.openstreetmap.org/?mlat=50.52&mlon=22.14#map=15/50.52/22.14"
+        embeddableMapUrl: "https://www.openstreetmap.org/export/embed.html?bbox=16.38,49.33,16.44,49.37&layer=mapnik&marker=49.351,16.411"
+        viewLargerMapUrl: "https://www.openstreetmap.org/?mlat=49.351&mlon=16.411#map=15/49.351/16.411"
 
       callToAction:
         other:
-          url: /application/
+          url: /registration/
         enableBanner: true
 
       callToActionSecondary:

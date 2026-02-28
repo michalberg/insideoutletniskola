@@ -1,10 +1,10 @@
 ---
-title: Application
+title: Registration
 type: page
 layout: single
 ---
 
-## Apply for Inside Out Pedagogies 2026
+## Register for Inside Out Pedagogies 2026
 
 We welcome applications from educators, researchers, practitioners, and students
 at all stages of their careers who are curious about transformative approaches
@@ -34,19 +34,19 @@ A limited number of fee waivers are available for those who need them.
 | **Applications open** | 1 March 2026 |
 | **Application deadline** | 15 April 2026 |
 | **Decisions communicated** | 1 May 2026 |
-| **Conference dates** | 1–3 July 2026 |
+| **Conference dates** | 15–19 August 2026 |
 
-### How to Apply
+### How to Register
 
-Fill in our online application form. We ask about your background,
+Fill in our online registration form. We ask about your background,
 your interest in the themes, and what you hope to bring to and take
 from the programme. The form takes about 20 minutes to complete.
 
 <div style="text-align:center;margin:3rem 0;">
   <a href="https://forms.gle/placeholder" target="_blank" rel="noopener"
-     style="display:inline-block;padding:1rem 2.5rem;background:#4caf50;color:#fff;
+     style="display:inline-block;padding:1rem 2.5rem;background:#c8d600;color:#212529;
             text-decoration:none;border-radius:4px;font-size:1.2rem;font-weight:bold;">
-    Apply Now →
+    Register Now →
   </a>
 </div>
 
