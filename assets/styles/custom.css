@@ -6,6 +6,24 @@
    Fonts: Open Sans (regular, bold, condensed bold)
    ===================================================== */
 
+/* --- CTA / Register button: dark solid background ----- */
+
+.button--outlined,
+a.button--outlined,
+button.button--outlined {
+    background: var(--color-primary-darkest) !important;
+    color: #fff !important;
+    border-color: var(--color-primary-darkest) !important;
+}
+
+.button--outlined:hover,
+a.button--outlined:hover,
+button.button--outlined:hover {
+    background: var(--color-primary-darker) !important;
+    border-color: var(--color-primary-darker) !important;
+    color: #fff !important;
+}
+
 /* --- Typography (NaZemi style: Open Sans) ------------ */
 
 body {
