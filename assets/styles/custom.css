@@ -6,14 +6,14 @@
    Fonts: Open Sans (regular, bold, condensed bold)
    ===================================================== */
 
-/* --- CTA / Register button: dark solid background ----- */
+/* --- CTA / Register button: brick/orange solid background */
 
 .button--outlined,
 a.button--outlined,
 button.button--outlined {
-    background: var(--color-primary-darkest) !important;
+    background: var(--color-primary) !important;
     color: #fff !important;
-    border-color: var(--color-primary-darkest) !important;
+    border-color: var(--color-primary) !important;
 }
 
 .button--outlined:hover,
@@ -122,6 +122,16 @@ h1, h2, h3, h4, h5, h6 {
 
 .team-card__link:hover {
     color: var(--color-primaryDarker);
+}
+
+/* --- Single page title -------------------------------- */
+
+.layout-single-default__title {
+    font-size: 2.2rem;
+    margin-bottom: 2rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid var(--color-primary);
+    color: var(--color-primary-darkest);
 }
 
 /* --- Green accent (NaZemi lime #c8d600) --------------- */
