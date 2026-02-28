@@ -6,7 +6,8 @@ params:
   isScheduled: true
   startsAt: 2026-08-19T09:00:00
   track: Plenary
-  room: Main Hall
+  room:
+    name: Main Hall
   categories:
     - Community
     - Reflection

@@ -6,7 +6,8 @@ params:
   isScheduled: true
   startsAt: 2026-08-15T16:00:00
   track: Research
-  room: Seminar Room
+  room:
+    name: Seminar Room
   categories:
     - Assessment
     - Research

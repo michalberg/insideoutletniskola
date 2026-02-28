@@ -6,7 +6,8 @@ params:
   isScheduled: true
   startsAt: 2026-08-18T10:00:00
   track: Practice
-  room: Outdoor Terrace
+  room:
+    name: Outdoor Terrace
   categories:
     - Workshop
     - Environment
