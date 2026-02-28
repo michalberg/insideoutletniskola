@@ -1,0 +1,89 @@
+{{ define "main" }}
+    <div class="section-container">
+        <section class="section single-session-section" aria-label="Session information">
+            <div class="single-session-section__spacer"></div>
+            <div class="single-session-section__session-information">
+                <h1 class="single-session-section__heading">
+                    <div class="single-session-section__metadata">
+                        {{- if page.Params.isScheduled }}
+                            {{- if page.Params.track }}
+                                <span class="single-session-section__pipe">
+                                    {{- partial "elements/hashtag.html" (dict "hashtag" page.Params.track) }}
+                                </span>
+                            {{- end }}
+                            <span class="single-session-section__pipe">
+                                {{- partial "elements/date-and-time.html" (dict "date" page.Params.startsAt ) }}
+                            </span>
+                            @{{ page.Params.room.name }}
+                        {{- end }}
+                    </div>
+                    {{- page.Title -}}
+                </h1>
+                <p class="single-session-section__content">{{- page.RawContent }}</p>
+                {{- with page.Params.speakers }}
+                    <ul class="single-session-speaker-list" role="list">
+                        {{- range $index, $speaker := . }}
+                            <li class="single-session-speaker-list__list-item" role="listitem">
+                                <div class="single-session-speaker-list__speaker">
+                                    <h2 class="heading heading--4 heading--embedded">{{ $speaker.fullName }}</h2>
+                                    <p class="paragraph">{{ $speaker.tagLine }}</p>
+                                </div>
+                            </li>
+                        {{- end }}
+                    </ul>
+                {{- end }}
+                {{- partial "session-categories.html" (
+                    dict
+                    "categories" page.Params.categories
+                    "listItemClasses" "single-session-section__session_category"
+                    )
+                -}}
+            </div>
+        </section>
+    </div>
+
+    {{- $sameTrackSessions := slice }}
+    {{ range where .Site.RegularPages "Section" "sessions" }}
+        {{ if and (eq .Params.track page.Params.track) (ne .Params.sessionId page.Params.sessionId) }}
+            {{- $sameTrackSessions = $sameTrackSessions | append (
+                dict
+                "title" .Title
+                "startsAt" .Params.startsAt
+                "isScheduled" .Params.isScheduled
+                "room" .Params.room.name
+                "sessionUrl" .RelPermalink
+                )
+            }}
+        {{ end }}
+    {{ end }}
+
+
+    <div class="section-container section-container--dimmed">
+        <section class="section same-track-sessions-section" aria-label="Further session from the same track">
+            <h1 class="same-track-sessions-section__heading">
+                {{- if page.Params.track }}
+                    {{- T "session_page.further_sessions_from" | upper }}
+                    <span class="same-track-sessions-section__hashtag">
+                        {{- partial "elements/hashtag.html" (dict "hashtag" page.Params.track) }}
+                    </span>
+                {{- else }}
+                    {{- T "session_page.further_sessions" | upper }}
+                {{- end }}
+            </h1>
+
+            {{- partial "sessions-menu.html" (
+                dict
+                "title" page.Params.track
+                "sessions" (first 4 $sameTrackSessions)
+                )
+            }}
+        </section>
+    </div>
+
+    {{- partial "sections/cta.html" (
+        dict
+        "eventbriteId" .Site.Params.themes.event.callToAction.eventbrite.eventId
+        "ctaUrl" .Site.Params.themes.event.callToAction.other.url
+        )
+    }}
+{{ end }}
