@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 100" width="320" height="100" role="img" aria-label="Inside Out Pedagogies Summer School">
+  <!-- Accent bar left -->
+  <rect x="0" y="12" width="6" height="76" fill="#c8d600"/>
+
+  <!-- Main title: INSIDE OUT -->
+  <text
+    x="20"
+    y="48"
+    font-family="'Open Sans Condensed', 'Open Sans', Arial Narrow, sans-serif"
+    font-weight="700"
+    font-size="38"
+    fill="#d55c19"
+    text-anchor="start"
+    letter-spacing="1"
+  >INSIDE OUT</text>
+
+  <!-- Subtitle: PEDAGOGIES -->
+  <text
+    x="20"
+    y="80"
+    font-family="'Open Sans Condensed', 'Open Sans', Arial Narrow, sans-serif"
+    font-weight="700"
+    font-size="22"
+    fill="#212529"
+    text-anchor="start"
+    letter-spacing="3"
+  >PEDAGOGIES</text>
+</svg>
