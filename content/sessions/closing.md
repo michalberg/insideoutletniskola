@@ -1,6 +1,6 @@
 ---
 title: "Closing: Harvest and Next Steps"
-date: 2026-07-03T15:00:00
+date: 2026-08-19T15:00:00
 params:
   isServiceSession: false
   isScheduled: true

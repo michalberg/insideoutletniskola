@@ -1,6 +1,6 @@
 ---
 title: "Workshop: Facilitation as a Pedagogical Stance"
-date: 2026-07-02T11:00:00
+date: 2026-08-16T11:00:00
 params:
   isServiceSession: false
   isScheduled: true

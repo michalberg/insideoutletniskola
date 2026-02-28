@@ -1,6 +1,6 @@
 ---
 title: "Workshop: Designing for Inquiry"
-date: 2026-07-01T14:00:00
+date: 2026-08-15T14:00:00
 params:
   isServiceSession: false
   isScheduled: true

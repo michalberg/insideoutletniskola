@@ -1,6 +1,6 @@
 ---
 title: "Rethinking Assessment: From Judgement to Dialogue"
-date: 2026-07-01T16:00:00
+date: 2026-08-15T16:00:00
 params:
   isServiceSession: false
   isScheduled: true

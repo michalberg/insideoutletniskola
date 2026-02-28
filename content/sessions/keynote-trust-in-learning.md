@@ -1,6 +1,6 @@
 ---
 title: "Keynote: Trust as the Foundation of Learning"
-date: 2026-07-01T10:30:00
+date: 2026-08-15T10:30:00
 params:
   isServiceSession: false
   isScheduled: true

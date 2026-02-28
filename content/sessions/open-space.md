@@ -1,6 +1,6 @@
 ---
 title: "Open Space: Participant-Led Conversations"
-date: 2026-07-02T14:00:00
+date: 2026-08-16T14:00:00
 params:
   isServiceSession: false
   isScheduled: true
