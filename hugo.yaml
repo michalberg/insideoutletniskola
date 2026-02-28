@@ -7,6 +7,12 @@ defaultContentLanguage: en
 defaultContentLanguageInSubdir: false
 
 enableRobotsTXT: true
+buildFuture: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
 
 menu:
   main:

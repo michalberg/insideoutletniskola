@@ -6,7 +6,8 @@ params:
   isScheduled: true
   startsAt: 2026-08-19T11:00:00
   track: Practice
-  room: Workshop Room A
+  room:
+    name: Workshop Room A
   categories:
     - Workshop
     - Communication

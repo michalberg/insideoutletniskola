@@ -6,7 +6,8 @@ params:
   isScheduled: true
   startsAt: 2026-08-16T14:00:00
   track: Open Space
-  room: Various Spaces
+  room:
+    name: Various Spaces
   categories:
     - Open Space
     - Participant-Led
