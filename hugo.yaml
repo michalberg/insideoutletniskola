@@ -96,14 +96,14 @@ params:
         linkedinUrl:
 
       colors:
-        primaryLighter: "#e8f5e9"
-        primary: "#4caf50"
-        primaryDarker: "#2e7d32"
-        primaryDarkest: "#1b5e20"
-        secondary: "#f9fbe7"
-        secondaryDarker: "#558b2f"
-        track: "#2e7d32"
-        shadow: "#a5d6a766"
+        primaryLighter: "#f8d5be"
+        primary: "#d55c19"
+        primaryDarker: "#a84314"
+        primaryDarkest: "#212529"
+        secondary: "#f5f0eb"
+        secondaryDarker: "#6c757d"
+        track: "#c8d600"
+        shadow: "#d55c1940"
 
       trackCategoryTitle: Track
       redirectBasedOnBrowserLang: false

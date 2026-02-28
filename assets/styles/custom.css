@@ -1,8 +1,35 @@
 /* =====================================================
    Inside Out Pedagogies — Custom Styles
    These supplement the hugo-theme-event base styles.
-   Visual identity refinements go here.
+   Visual identity: based on NaZemi.cz (nazemi.cz)
+   Colors: #d55c19 (orange), #c8d600 (lime), #212529 (dark)
+   Fonts: Open Sans (regular, bold, condensed bold)
    ===================================================== */
+
+/* --- Typography (NaZemi style: Open Sans) ------------ */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans Condensed', 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+}
+
+.heading {
+    font-family: 'Open Sans Condensed', 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.btn, button, .button {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
 
 /* --- Team Page ---------------------------------------- */
 
