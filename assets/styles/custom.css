@@ -6,6 +6,32 @@
    Fonts: Open Sans (regular, bold, condensed bold)
    ===================================================== */
 
+/* --- Event highlights – odrážky s větším rozestupem ------ */
+
+.event-highlights-section__paragraph li {
+    margin-bottom: 0.75rem;
+}
+
+/* --- Event highlights sekce – užší popis ----------------- */
+
+.event-highlights-section__description {
+    max-width: 60%;
+    flex-grow: 1;
+}
+
+/* --- Datum v hero sekci – posunout níž ------------------- */
+
+.event-title-section__subheading {
+    margin-top: 2rem;
+}
+
+/* --- Logo v hlavičce (zobrazit i na desktopu) ----------- */
+
+[data-menu-mode='header'] .page-header__title-link {
+    display: flex !important;
+    align-items: center;
+}
+
 /* --- CTA / Register button: brick/orange solid background */
 
 .button--outlined,

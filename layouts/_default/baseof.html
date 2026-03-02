@@ -118,7 +118,11 @@
                         {{- partial "graphics/hamburger-menu.html" }}
                     </label>
                     <a class="page-header__title-link" href="{{ site.Home.RelPermalink }}">
-                        {{ (strings.FirstUpper (or .Site.Params.themes.event.shortTitle .Site.Params.themes.event.title)) }}
+                        {{ with resources.Get "logos/logo_horizontalni_cerne.svg" }}
+                            <img src="{{ .RelPermalink }}" alt="{{ $.Site.Params.themes.event.title }}" height="36" />
+                        {{ else }}
+                            {{ (strings.FirstUpper (or $.Site.Params.themes.event.shortTitle $.Site.Params.themes.event.title)) }}
+                        {{ end }}
                     </a>
 
                     <div class="page-header__menu-container">
@@ -151,7 +155,11 @@
             <nav class="page-sidebar__navigation" aria-labelledby="main-navigation-label">
                 <header class="page-sidebar__header">
                     <a class="page-sidebar__heading-link" href="{{ site.Home.RelPermalink }}">
-                        {{ (strings.FirstUpper (or .Site.Params.themes.event.shortTitle .Site.Params.themes.event.title)) }}
+                        {{ with resources.Get "logos/logo_horizontalni_cerne.svg" }}
+                            <img src="{{ .RelPermalink }}" alt="{{ $.Site.Params.themes.event.title }}" height="36" />
+                        {{ else }}
+                            {{ (strings.FirstUpper (or $.Site.Params.themes.event.shortTitle $.Site.Params.themes.event.title)) }}
+                        {{ end }}
                     </a>
 
                     <label class="page-sidebar__close-label" for="sidebarToggle">

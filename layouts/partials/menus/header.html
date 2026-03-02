@@ -1,0 +1,18 @@
+{{ $input := . }}
+
+<ul class="header-menu">
+    {{- $currentNode := $input.context }}
+    {{- range $input.menu }}
+        <li>
+            <a
+                href="{{ .URL }}"
+                {{- if or ($currentNode.IsMenuCurrent .Menu .) ($currentNode.HasMenuCurrent .Menu .) }}
+                    class="header-menu__link header-menu__link--active" aria-current="page"
+                {{- else }}
+                    class="header-menu__link"
+                {{- end }}>
+                {{- or (T (printf "menu.%s" .Identifier)) .Name | safeHTML }}
+            </a>
+        </li>
+    {{- end }}
+</ul>

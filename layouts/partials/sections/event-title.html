@@ -7,13 +7,23 @@
     {{ end }}>
     <div class="event-title-section__header">
         <h1 class="event-title-section__heading">
-            {{- $input.title }}
+            {{- $parts := split $input.title ": " }}
+            {{- if ge (len $parts) 2 }}
+                <span style="display:block">{{- index $parts 0 }}:</span>
+                <span style="display:block">{{- index $parts 1 }}</span>
+            {{- else }}
+                {{- $input.title }}
+            {{- end }}
         </h1>
         <h2 class="event-title-section__subheading">
-            {{- with $input.startDate }}
-                {{- . | time.AsTime | time.Format ":date_long" }},
+            {{- with $input.heroSubtitle }}
+                {{- . }}
+            {{- else }}
+                {{- with $input.startDate }}
+                    {{- . | time.AsTime | time.Format ":date_long" }},
+                {{- end }}
+                {{ $input.location }}
             {{- end }}
-            {{ $input.location }}
         </h2>
     </div>
 
