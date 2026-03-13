@@ -6,6 +6,29 @@
    Fonts: Open Sans (regular, bold, condensed bold)
    ===================================================== */
 
+/* --- Event highlights – menší mezera u piktogramů a sekce pod ním --- */
+
+.event-highlights-section {
+    padding-bottom: 2rem;
+}
+
+.iops-for-whom {
+    padding-top: 2rem;
+}
+
+/* --- Event highlights – menší mezera u piktogramů --------- */
+
+.event-highlights-section__figures {
+    margin-top: 2rem;
+    gap: 1rem;
+}
+
+/* --- Event highlights – mezera mezi nadpisem a odrážkami -- */
+
+.event-highlights-section__description h2 {
+    margin-bottom: 0.5rem;
+}
+
 /* --- Event highlights – odrážky s větším rozestupem ------ */
 
 .event-highlights-section__paragraph li {
@@ -325,6 +348,7 @@ h1, h2, h3, h4, h5, h6 {
 .iops-benefits .iops-card {
     border-left-color: var(--color-primary);
 }
+
 
 @media (max-width: 40rem) {
     .team-grid {

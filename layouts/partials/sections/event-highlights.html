@@ -5,7 +5,7 @@
         <header class="event-highlights-section__header">
             <article class="event-highlights-section__description">
                 <h2 class="heading heading--2">
-                    {{ $input.subtitle }}
+                    {{ $input.subtitle | safeHTML }}
                 </h2>
 
                 <div class="paragraph event-highlights-section__paragraph">{{ $input.description | markdownify }}</div>
@@ -21,20 +21,16 @@
                     )
                 }}
             {{- end }}
-            {{- if $input.numberOfSessions }}
-                {{- partial "highlight-figure.html" (
-                    dict "icon" "icons/session.svg"
-                    "caption" (T "event_highlights_section.number_of_sessions" $input.numberOfSessions)
-                    )
-                }}
-            {{- end }}
-            {{- if $input.numberOfDays }}
-                {{- partial "highlight-figure.html" (
-                    dict "icon" "icons/calendar.svg"
-                    "caption" (T "event_highlights_section.number_of_days" $input.numberOfDays)
-                    )
-                }}
-            {{- end }}
+            {{- partial "highlight-figure.html" (
+                dict "icon" "icons/session.svg"
+                "caption" "16-20 August"
+                )
+            }}
+            {{- partial "highlight-figure.html" (
+                dict "icon" "icons/calendar.svg"
+                "caption" "4 Days"
+                )
+            }}
             {{- if $input.location }}
                 {{- partial "highlight-figure.html" (
                     dict "icon" "icons/location.svg"
