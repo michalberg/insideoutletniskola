@@ -1,0 +1,76 @@
+{{ $input := . }}
+{{ $venuePhotos := resources.Match "venue/*" }}
+
+<div class="directions-card">
+    <div class="directions-card__image venue-gallery">
+        {{ if $venuePhotos }}
+            {{ range $i, $photo := $venuePhotos }}
+                <a href="{{ $photo.RelPermalink }}" class="venue-gallery__link" data-lightbox="{{ $i }}">
+                    <img src="{{ $photo.RelPermalink }}" alt="Venue photo" class="venue-gallery__photo" loading="lazy" />
+                </a>
+            {{ end }}
+        {{ else }}
+            {{ $image := resources.Get $input.locationImg }}
+            {{- partial "shaped-image.html" (
+                dict
+                "imageResource" $image
+                "imageAlt" $input.locationImgAlt
+                )
+            }}
+        {{ end }}
+    </div>
+    <article class="directions-card__description">
+        <h2 class="heading heading--2">{{ T "location_page.directions_heading" }}</h2>
+        <div class="markdown">{{ $input.directions | markdownify }}</div>
+    </article>
+</div>
+
+<!-- Lightbox -->
+<div id="venue-lightbox" class="venue-lightbox" style="display:none;">
+    <button class="venue-lightbox__close" onclick="closeLightbox()">✕</button>
+    <button class="venue-lightbox__prev" onclick="changeLightbox(-1)">&#8249;</button>
+    <img id="venue-lightbox-img" src="" alt="" class="venue-lightbox__img" />
+    <button class="venue-lightbox__next" onclick="changeLightbox(1)">&#8250;</button>
+</div>
+
+<script>
+    var lightboxPhotos = [];
+    var lightboxIndex = 0;
+
+    document.querySelectorAll('.venue-gallery__link').forEach(function(link, i) {
+        lightboxPhotos.push(link.href);
+        link.addEventListener('click', function(e) {
+            e.preventDefault();
+            openLightbox(i);
+        });
+    });
+
+    function openLightbox(i) {
+        lightboxIndex = i;
+        document.getElementById('venue-lightbox-img').src = lightboxPhotos[i];
+        document.getElementById('venue-lightbox').style.display = 'flex';
+        document.body.style.overflow = 'hidden';
+    }
+
+    function closeLightbox() {
+        document.getElementById('venue-lightbox').style.display = 'none';
+        document.body.style.overflow = '';
+    }
+
+    function changeLightbox(dir) {
+        lightboxIndex = (lightboxIndex + dir + lightboxPhotos.length) % lightboxPhotos.length;
+        document.getElementById('venue-lightbox-img').src = lightboxPhotos[lightboxIndex];
+    }
+
+    document.getElementById('venue-lightbox').addEventListener('click', function(e) {
+        if (e.target === this) closeLightbox();
+    });
+
+    document.addEventListener('keydown', function(e) {
+        if (document.getElementById('venue-lightbox').style.display === 'flex') {
+            if (e.key === 'Escape') closeLightbox();
+            if (e.key === 'ArrowRight') changeLightbox(1);
+            if (e.key === 'ArrowLeft') changeLightbox(-1);
+        }
+    });
+</script>

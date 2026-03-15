@@ -25,7 +25,7 @@ menu:
     - name: Manifesto
       url: /manifesto/
       weight: 30
-    - name: Our Resources
+    - name: Our Inspiration
       url: /resources/
       weight: 40
     - name: Our Team
@@ -45,7 +45,7 @@ params:
       endDate: 2026-08-19
       location: Czechia, Předklášteří
       address:
-        - Předklášteří
+        - Porta Coeli 1001
         - 666 02 Předklášteří
         - Czechia
 
@@ -59,14 +59,18 @@ params:
         Education is a key instrument of profound social change. **Inside out: Pedagogies for Inner and Systemic Change summer school** acknowledges the role of education in transformation and intentionally builds upon it. The summer school supports educators who have been seeking meaningful ways to contribute to systemic transformation through their educational practice. By creating a space for reflection, experimentation, and shared learning, the program strengthens participants' capacity to engage in both inner and societal change through education.
 
       directions: |
-        **By train:** Take a train to Tišnov station, then a short taxi or bus ride to Předklášteří.
-        The venue is approximately 5 minutes from Tišnov.
+        At NaZemi, we have long desired a space that we could use to hold our seminars, a space where we could host other groups and at the same time model and live our values. Now we have found it. We are delighted to be working to create a place for organizations and teams to meet, relax, and work. A place for school classes, courses, and seminars to stay and learn. It is called **NaNebi** and is located on the premises of the **[Porta Coeli monastery](https://en.wikipedia.org/wiki/Porta_coeli_Convent)** in Předklášteří, just a few train stops from Brno.
 
-        **By car:** Předklášteří is located near Tišnov, about 30 km north of Brno.
-        Follow road no. 386 from Brno towards Tišnov. Free parking is available at the venue.
+        **NaNebi offers:**
+        - Accommodation, including all necessary facilities
+        - Conference rooms
+        - Kitchens and dining rooms
+        - Gardens and other outdoor areas
+        - Meals throughout your stay
 
-        **From Brno:** Approx. 30 minutes by car or 45 minutes by train.
-        **From Prague:** Approx. 2.5 hours by car or 3 hours by train.
+        We approach the monastery setting with respect for its unique character and in harmony with our values: we strive for a future beyond economic growth, reconciliation across society, and a way of life that respects planetary boundaries. In doing so, we seek to build on the Cistercian tradition of humility and moderation in our relationships with people and the world. We are therefore happy to welcome groups who share this vision and who are already contributing to or wish to contribute to the creation of a similar environment through their own activities.
+
+        At the monastery and in its surroundings, we co-create and support a range of smaller projects, from making cider from local apples, to producing biochar, a community garden, an eco-friendly flower shop, organic farming, and the Tišnov zero-waste store. By arrangement, we offer groups a tour of both the monastery's historical monuments and these individual projects.
 
       aboutUs: |
         **Inside Out Pedagogies** is a community of educators committed to
@@ -85,12 +89,12 @@ params:
       favicon: favicon.ico
 
       map:
-        embeddableMapUrl: "https://www.openstreetmap.org/export/embed.html?bbox=16.38,49.33,16.44,49.37&layer=mapnik&marker=49.351,16.411"
-        viewLargerMapUrl: "https://www.openstreetmap.org/?mlat=49.351&mlon=16.411#map=15/49.351/16.411"
+        embeddableMapUrl: "https://www.openstreetmap.org/export/embed.html?bbox=16.38,49.33,16.44,49.38&layer=mapnik&marker=49.35372,16.40176"
+        viewLargerMapUrl: "https://www.openstreetmap.org/?mlat=49.35372&mlon=16.40176#map=15/49.35372/16.40176"
 
       callToAction:
         other:
-          url: /registration/
+          url: https://forms.gle/JW3LoQF2XVtU49RX6
         enableBanner: true
 
       callToActionSecondary:

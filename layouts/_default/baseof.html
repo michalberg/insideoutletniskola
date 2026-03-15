@@ -250,16 +250,18 @@
         <div class="section-container iops-contact-bar">
             <section class="section section--short iops-contact-bar__inner">
                 <div class="iops-contact-bar__item">
-                    <strong>Inside out: Pedagogies for Inner<br>and Systemic Change summer school</strong><br>
-                    15–19 August 2026 · Czechia, Předklášteří
-                </div>
-                <div class="iops-contact-bar__item">
                     <strong>Contact</strong><br>
                     <a href="mailto:summerschool@nazemi.cz">summerschool@nazemi.cz</a>
                 </div>
                 <div class="iops-contact-bar__item">
                     <strong>Register</strong><br>
                     <a href="/registration/">Early birds until April 30th</a>
+                </div>
+                <div class="iops-contact-bar__item">
+                    <em>This summer school is made possible thanks<br>to financial support from the European Union.</em><br>
+                    {{ with resources.Get "logos/eu_funded_en.jpg" }}
+                        <img src="{{ .RelPermalink }}" alt="Funded by the European Union" style="height:3.5rem;margin-top:0.75rem;" />
+                    {{ end }}
                 </div>
             </section>
         </div>

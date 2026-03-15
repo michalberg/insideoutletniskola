@@ -350,6 +350,68 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+/* --- Venue fotogalerie ------------------------------------ */
+
+.venue-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+}
+
+.venue-gallery__link {
+    display: block;
+    overflow: hidden;
+    border-radius: 0.3rem;
+    cursor: zoom-in;
+}
+
+.venue-gallery__photo {
+    width: 100%;
+    height: 10rem;
+    object-fit: cover;
+    transition: transform 0.2s;
+}
+
+.venue-gallery__link:hover .venue-gallery__photo {
+    transform: scale(1.05);
+}
+
+/* --- Venue lightbox --------------------------------------- */
+
+.venue-lightbox {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.9);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.venue-lightbox__img {
+    max-width: 90vw;
+    max-height: 85vh;
+    object-fit: contain;
+    border-radius: 0.3rem;
+}
+
+.venue-lightbox__close,
+.venue-lightbox__prev,
+.venue-lightbox__next {
+    position: absolute;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 2.5rem;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    line-height: 1;
+}
+
+.venue-lightbox__close { top: 1rem; right: 1rem; font-size: 1.5rem; }
+.venue-lightbox__prev  { left: 1rem; }
+.venue-lightbox__next  { right: 1rem; }
+
 @media (max-width: 40rem) {
     .team-grid {
         grid-template-columns: 1fr;

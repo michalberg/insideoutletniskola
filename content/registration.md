@@ -5,14 +5,14 @@ layout: single
 ---
 
 <div style="text-align:center;margin:2rem 0 1rem;">
-  <a href="https://forms.gle/placeholder" target="_blank" rel="noopener"
+  <a href="https://forms.gle/JW3LoQF2XVtU49RX6" target="_blank" rel="noopener"
      style="display:inline-block;padding:0.9rem 2.5rem;background:#212529;color:#fff;
             text-decoration:none;border-radius:4px;font-size:1.1rem;font-weight:bold;letter-spacing:0.04em;">
     Register Now →
   </a>
 </div>
 
-## Register for Inside Out Pedagogies 2026
+## Register for Inside out: Pedagogies for Inner and Systemic Change
 
 We welcome applications from educators, researchers, practitioners, and students
 at all stages of their careers who are curious about transformative approaches
@@ -51,7 +51,7 @@ your interest in the themes, and what you hope to bring to and take
 from the programme. The form takes about 20 minutes to complete.
 
 <div style="text-align:center;margin:3rem 0;">
-  <a href="https://forms.gle/placeholder" target="_blank" rel="noopener"
+  <a href="https://forms.gle/JW3LoQF2XVtU49RX6" target="_blank" rel="noopener"
      style="display:inline-block;padding:1rem 2.5rem;background:#212529;color:#fff;
             text-decoration:none;border-radius:4px;font-size:1.2rem;font-weight:bold;letter-spacing:0.04em;">
     Register Now →

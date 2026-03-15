@@ -42,11 +42,36 @@ If we dig deeper into the origins of these crises, we find that a widespread not
 
 ### Homo Economicus and Homo Solidaris – Two Images
 
+| **Homo Economicus** | **Homo Solidaris** |
+|---|---|
+| Humans are self-centred and motivated by their own interests. | Humans are supportive and like to contribute to others. |
+| Humans are competitive. | Humans are social and cooperative. |
+| Humans are lazy and motivated by reward or fear. | Humans are active and like to do things that make sense to them. |
+| Humans need to be controlled and want to control others. | Humans are trustworthy and responsible. |
+| Humans are disconnected and independent from others and from nature. | Humans are interconnected and dependent on other people and nature. |
+
 We are both, but what we nurture and what the institutions we have created encourage us to do becomes more apparent. We pay more attention to the things we expect. We create institutions and social mechanisms based on our perception of humanity, and these then reinforce the expected behaviour.
 
 Today, the **Homo economicus** narrative (the idea that humans are self-centred) dominates our society, and the rules and structures of our institutions are based on this premise. If we grow up within these institutions and continue to function within them, we internalise their logic through socialisation – profit and self-interest become our only motivations. This then shapes our behaviour, which in turn reinforces the ingrained belief that people always act in their own interest.
 
-### Maintaining Social Norms
+## Maintaining Social Norms
+
+Let's examine how our system is maintained, taking educational and work institutions as examples.
+
+<table><tbody>
+<tr>
+<td>If we believe that people are lazy and will not learn unless forced to do so, we design a school system based on control and rewards.</td>
+<td>If we believe that people are active learners who enjoy discovering things that make sense to them, we build a school that supports intrinsic motivation and trust.</td>
+</tr>
+<tr>
+<td>Teachers will give out stamps or grades for assignments that children do mostly by themselves, competing with each other to see who performs better according to some external criteria. Children who were once curious are now only learning because of the promise of rewards or the fear of failure. In an effort to meet the teacher's criteria, they lose touch with what is important to them. Unless they are lucky enough to have a family background that can balance these pressures, thirteen years of schooling will result in individualism, passivity, dependence on authority or unproductive defiance.</td>
+<td>The school's structure allows children to explore their interests, make mistakes and evaluate their own progress. It fosters cooperation among children, enabling everyone to contribute their unique skills and opinions while receiving regular feedback. Children learn to be sensitive to their own needs and those of others. They discover things that interest them and areas in which they can improve. At the same time, the school's decision-making processes empower children to make decisions about matters that concern them.</td>
+</tr>
+<tr>
+<td>Young adults enter the world of work, where grades are replaced by money and teachers by bosses. They often find themselves in a hierarchical work environment where the needs of those at the top are prioritised. Ordinary people then do meaningless jobs over which they have no control. In the "best" case, they strive for promotion so that they can control others.</td>
+<td>They can then apply these experiences and skills in the workplace. In a self-managing work environment, they are guided by their inner motivation and their drive to contribute the best they can to the collective good. They can participate in shaping their teams' goals and deciding how to distribute the company's profits.</td>
+</tr>
+</tbody></table>
 
 Individualism, competition, dominance and control – patterns that are often present in education and work – manifest themselves not only in interpersonal relationships and institutions, but also in global economic relations based on the exploitation of people and nature.
 
