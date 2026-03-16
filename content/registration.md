@@ -14,41 +14,30 @@ layout: single
 
 ## Register for Inside out: Pedagogies for Inner and Systemic Change
 
-We welcome applications from educators, researchers, practitioners, and students
-at all stages of their careers who are curious about transformative approaches
-to learning and teaching.
+We welcome applications from educators, teachers and students at all stages of their careers who strive for deeper impact and inner transformation in their students and participants.
 
-### Who Should Apply
+### How much does it cost?
 
-- Teachers and educators working in formal or informal settings
-- Education researchers and academics
-- School leaders and curriculum designers
-- Students and early-career practitioners
-- Anyone with a passionate interest in rethinking education
+We want everyone to be able to attend the summer school, regardless of their financial situation. At the same time, we need to cover the costs. That is why we have opted for a **sliding fee scale, and we ask that you contribute according to your means.**
 
-### What to Expect
+We are also offering 7 scholarship spots to those for whom even the reduced fee would make participation impossible.
 
-The programme combines plenary sessions, workshops, and open-space conversations.
-There is space for both structured input and participant-led sessions.
-We design for dialogue, not just transmission.
+The summer school is co-funded through the Erasmus+ programme, which is why we are able to offer reduced fees and scholarship options. However, the grant does not cover all costs, so we need contributions from the participants.
 
-Accommodation, meals, and social events are included in the programme fee.
-A limited number of fee waivers are available for those who need them.
-
+Besides the programme, **the summer school fee includes accommodation and all the meals.**
 ### Key Dates
 
-| | |
-|---|---|
-| **Applications open** | 1 March 2026 |
-| **Application deadline** | 15 April 2026 |
-| **Decisions communicated** | 1 May 2026 |
-| **Conference dates** | 15–19 August 2026 |
+<table><tbody>
+<tr><td><strong>Applications open</strong></td><td>16 March 2026</td></tr>
+<tr><td><strong>Application deadline - early birds</strong></td><td>1 May 2026</td></tr>
+<tr><td><strong>Application deadline (10% increase in fees<br>after 1 May)</strong></td><td>We are accepting applications until capacity is reached</td></tr>
+<tr><td><strong>Decisions communicated</strong></td><td>No later than two weeks after each application</td></tr>
+<tr><td><strong>Summer School dates</strong></td><td>16–20 August 2026</td></tr>
+</tbody></table>
 
 ### How to Register
 
-Fill in our online registration form. We ask about your background,
-your interest in the themes, and what you hope to bring to and take
-from the programme. The form takes about 20 minutes to complete.
+Fill in our online application form. The form takes about 10-15 minutes to complete.
 
 <div style="text-align:center;margin:3rem 0;">
   <a href="https://forms.gle/JW3LoQF2XVtU49RX6" target="_blank" rel="noopener"
@@ -58,4 +47,4 @@ from the programme. The form takes about 20 minutes to complete.
   </a>
 </div>
 
-*Questions? Write to us at [hello@insideoutletniskola.org](mailto:hello@insideoutletniskola.org)*
+*Questions? Write to us at [summerschool@nazemi.cz](mailto:summerschool@nazemi.cz)*

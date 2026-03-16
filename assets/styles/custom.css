@@ -350,6 +350,47 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+/* --- Directions card – stejný vzhled textu jako layout-single-default --- */
+
+.directions-card__description {
+    line-height: 1.75;
+    font-size: 1rem;
+}
+
+.directions-card__description .markdown p,
+.directions-card__description .markdown li {
+    font-size: 1rem;
+    line-height: 1.75;
+}
+
+.directions-card__description .heading--2 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    font-family: 'Open Sans Condensed', 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    margin-bottom: 0.75rem;
+    border-left: 4px solid var(--color-track);
+    padding-left: 0.75rem;
+    color: var(--color-primary-darker);
+}
+
+.directions-card__description h3 {
+    margin-top: 1.75rem;
+    margin-bottom: 0.5rem;
+    color: var(--color-primary-darkest);
+}
+
+.directions-card__description ul,
+.directions-card__description ol {
+    padding-left: 1.5rem;
+}
+
+.directions-card__description li {
+    margin-bottom: 0.4rem;
+}
+
 /* --- Venue fotogalerie ------------------------------------ */
 
 .venue-gallery {
