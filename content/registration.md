@@ -25,6 +25,15 @@ We are also offering 7 scholarship spots to those for whom even the reduced fee 
 The summer school is co-funded through the Erasmus+ programme, which is why we are able to offer reduced fees and scholarship options. However, the grant does not cover all costs, so we need contributions from the participants.
 
 Besides the programme, **the summer school fee includes accommodation and all the meals.**
+### Fees
+
+<table><tbody>
+<tr><td><strong>Reduced Fee</strong></td><td>€250</td></tr>
+<tr><td><strong>Base Fee</strong></td><td>€350</td></tr>
+<tr><td><strong>Solidarity Fee</strong></td><td>€450</td></tr>
+<tr><td><strong>Scholarship positions</strong></td><td>seven in total</td></tr>
+</tbody></table>
+
 ### Key Dates
 
 <table><tbody>
@@ -32,6 +41,8 @@ Besides the programme, **the summer school fee includes accommodation and all th
 <tr><td><strong>Application deadline - early birds</strong></td><td>1 May 2026</td></tr>
 <tr><td><strong>Application deadline (10% increase in fees<br>after 1 May)</strong></td><td>We are accepting applications until capacity is reached</td></tr>
 <tr><td><strong>Decisions communicated</strong></td><td>No later than two weeks after each application</td></tr>
+<tr><td><strong>Cancellation of participation by 16 June</strong></td><td>Full refund</td></tr>
+<tr><td><strong>Cancellation of registration by 16 July</strong></td><td>50% refund</td></tr>
 <tr><td><strong>Summer School dates</strong></td><td>16–20 August 2026</td></tr>
 </tbody></table>
 
