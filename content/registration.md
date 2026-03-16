@@ -28,9 +28,9 @@ Besides the programme, **the summer school fee includes accommodation and all th
 ### Fees
 
 <table><tbody>
-<tr><td><strong>Reduced Fee</strong></td><td>€250</td></tr>
-<tr><td><strong>Base Fee</strong></td><td>€350</td></tr>
-<tr><td><strong>Solidarity Fee</strong></td><td>€450</td></tr>
+<tr><td><strong>Reduced fee</strong></td><td>€250</td></tr>
+<tr><td><strong>Base fee</strong></td><td>€350</td></tr>
+<tr><td><strong>Solidarity fee</strong></td><td>€450</td></tr>
 <tr><td><strong>Scholarship positions</strong></td><td>seven in total</td></tr>
 </tbody></table>
 

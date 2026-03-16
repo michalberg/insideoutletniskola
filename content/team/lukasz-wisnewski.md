@@ -1,17 +1,16 @@
 ---
-title: Łukasz Wiśniewski
+title: Filip Kňažek
+weight: 2
 params:
-  role: Local Host & Logistics Coordinator
-  organisation: Nisko Learning Community
+  role: Facilitator & Non Formal Education Lecturer & Coach & Self-discovery Guide
+  organisation:
   bio: |
-    Łukasz is a teacher and community organiser based in Nisko. He is
-    one of the founders of the Nisko Learning Community, a local
-    initiative bringing together educators and parents to create
-    more democratic and participatory schools.
+    Filip works with topics such as education, work-life balance, communication, stress management, mindfulness, self-development, connecting with oneself, movement, and nature. He draws inspiration from various sources in his work, such as process work, Bill Plotkin's eco-centric approach, or nonviolent communication.
 
-    Łukasz coordinates the local hosting of Inside Out Pedagogies
-    and ensures that participants experience the best of what the
-    Podkarpacie region has to offer.
-  email: lukasz@insideoutletniskola.org
-  website: https://example.com
+    He teaches at the Faculty of Arts at Masaryk University in Brno; at [SOFA](https://www.societyforall.cz/?intl=en-gb), he focuses on the topics of teacher wellbeing and the basics of a trauma-informed approach.
+
+    He loves self-development, nature, hiking, traveling, new cultures, books, stories, peace, and psychology.
+    He believes that all is interconnected and we as educators have a crucial role in bringing it into the spotlight.
+  email: filip.knazek@gmail.com
+  website: https://www.filipknazek.eu/en/
 ---
