@@ -259,8 +259,10 @@
                 </div>
                 <div class="iops-contact-bar__item">
                     <em>This summer school is made possible thanks<br>to financial support from the European Union.</em><br>
-                    {{ with resources.Get "logos/eu_funded_en.jpg" }}
-                        <img src="{{ .RelPermalink }}" alt="Funded by the European Union" style="height:3.5rem;margin-top:0.75rem;" />
+                    {{ with resources.Get "logos/cofunded_eu.png" }}
+                        <div style="display:inline-block;background:#fff;padding:0 0.6rem;border-radius:0.2rem;margin-top:0.3rem;width:55%;overflow:hidden;">
+                            <img src="{{ .RelPermalink }}" alt="Co-funded by the European Union" style="width:100%;display:block;margin-top:-12%;margin-bottom:-12%;" />
+                        </div>
                     {{ end }}
                 </div>
             </section>
