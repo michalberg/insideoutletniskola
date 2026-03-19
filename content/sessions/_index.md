@@ -17,6 +17,8 @@ We engage the whole person in the learning process. Alongside critical thinking 
 
 Accommodation on the premises, as well as a full plant-based meal plan, are included in the [fee](/registration/) during the summer school and provided by the venue.
 
+*We will continue to update the program and add more detailed information.*
+
 ## 16 Sunday – Check-in
 
 - Arrival at the venue (16:00)
