@@ -39,8 +39,8 @@ Besides the programme, **the summer school fee includes accommodation and all th
 <table><tbody>
 <tr><td><strong>Applications open</strong></td><td>16 March 2026</td></tr>
 <tr><td><strong>Application deadline - early birds</strong></td><td>1 May 2026</td></tr>
-<tr><td><strong>Application deadline (10% increase in fees<br>after 1 May)</strong></td><td>We are accepting applications until capacity is reached</td></tr>
-<tr><td><strong>Decisions communicated</strong></td><td>No later than two weeks after each application</td></tr>
+<tr><td><strong>Application deadline (10% increase in fees<br>after 1 May)</strong></td><td>Applications will be open until capacity is reached</td></tr>
+<tr><td><strong>Decisions communicated</strong></td><td>No later than two weeks after you submit your application</td></tr>
 <tr><td><strong>Cancellation of participation by 16 June</strong></td><td>Full refund</td></tr>
 <tr><td><strong>Cancellation of registration by 16 July</strong></td><td>50% refund</td></tr>
 <tr><td><strong>Summer School dates</strong></td><td>16–20 August 2026</td></tr>

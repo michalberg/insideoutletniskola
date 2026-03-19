@@ -14,7 +14,7 @@ At the same time, education itself becomes a central theme of the summer school.
 
 We engage the whole person in the learning process. Alongside critical thinking and dialogue, we create space for emotions and embodied experience. Some sessions take place outdoors, and through voluntary work, participants actively contribute to the care of the monastery and its surrounding initiatives.
 
-Accommodation on the premises, as well as a full plant-based meal plan, are included in the [fee](/registration/) during the summer school.
+Accommodation on the premises, as well as a full plant-based meal plan, are included in the [fee](/registration/) during the summer school and provided by the venue.
 
 ## 16 Sunday – Check-in
 

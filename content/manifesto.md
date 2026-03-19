@@ -14,19 +14,19 @@ Systems thinking teaches us that effective transformation requires a simultaneou
 
 - Through **transformative and global education**, we empower young people, teachers and schools to critically examine the current status quo, develop a vision for a better world and play an active role in bringing this vision to life.
 - By **facilitating and supporting self-managing organisations**, we help to create a democratic and collaborative environment in which everyone's voice and needs are heard.
-- By **promoting degrowth and decent work**, we are helping to build an economic system that is organised around the principle of meeting human needs within planetary boundaries, rather than focusing on growth and profit.
+- By **promoting degrowth and economic alternatives**, we contribute to building an economic system organised around the principle of meeting human needs within planetary boundaries, rather than focusing on growth and profit. We also specifically do work towards a just transition of the garment industry.
 
 ## Responding to the Current State of the World
 
 We are responding to the current state of our world, in which we are confronted with deepening social inequalities, climate change, the threat of ecosystem collapse, deteriorating mental health and a concentration of political and economic power that undermines democracy and trust between people.
 
-One of the root causes of these crises is the separation of humans from nature and from each other. This fundamental disconnection forms the basis of an economic system that is obsessed with growth. This system creates wealth for a select few at the expense of the majority while destroying the environment. These crises cannot be solved by superficial changes, treating the symptoms or tweaking the current system.
+One of the root causes of these crises is the separation of humans from nature and from each other. This fundamental disconnection forms the basis of an economic system that is obsessed with growth. This system creates wealth for a select few at the expense of the majority while destroying the environment. These crises cannot be solved with superficial changes, by treating the symptoms or through tweaking the current system.
 
 At NaZemi, we believe that we must help create a new system that serves both people and nature (**midwifing**). At the same time, however, we need to allow the existing system to fade away with respect and care (**hospicing**), and reduce the damage it causes to vulnerable communities. We consider the birth pains of creating a new world, as well as the denial, anger and fear accompanying difficult partings, to be a natural part of this journey. We are learning how to work with these emotions and provide the necessary space for them.
 
 Our belief that another world is possible is based not only on imaginative ideas, but also on existing examples of practices such as community democratic schools, self-managed non-profit companies and indigenous communities that live by these values every day. While we do not claim to know the exact path to achieving our vision, we are moving towards it step by step, continuing to ask questions and seek answers.
 
-As a society, we may never achieve a world in which all people's needs are met within planetary boundaries. Still, we believe that we should strive for a world like that. We must empower communities and groups to create organisations, schools and collectives that will live out this vision and these values, at least in small ways.
+As a society, we might never achieve a world in which the needs of all people are met within planetary boundaries. Nevertheless, we believe that we should strive towards that world. We must empower communities and groups to create organisations, schools and collectives that will embody this vision and these values, even if they do so in small ways.
 
 ## Why Are We a Self-Managing Organisation?
 
