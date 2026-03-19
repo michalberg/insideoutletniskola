@@ -9,6 +9,6 @@ params:
 
     Klára currently serves as a board member of NaZemi and coordinates a project exploring sustainable forms of civic engagement and holistic learning, with a particular focus on the role of emotions in collective learning processes. She also facilitates workshops on transformative education.
 
-    Her professional experience includes collaboration with the trainer pool of the Czech National Agency (Erasmus+ and the European Solidarity Corps), freelance facilitation, and work with a European political foundation. Outside of work, she enjoys travelling by train, hiking, and taking time to rest between intensive educational programmes.
+    Her professional experience includes collaboration with the trainer pool of Erasmus+ and the European Solidarity Corps, freelance facilitation, and work with a European political foundation. Outside of work, she enjoys travelling by train, hiking, and taking time to rest between intensive educational programmes.
   email: klara.berg@nazemi.cz
 ---
