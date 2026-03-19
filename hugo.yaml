@@ -16,6 +16,9 @@ markup:
 
 menu:
   main:
+    - name: Program
+      url: /sessions/
+      weight: 10
     - name: Venue
       url: /location/
       weight: 20
