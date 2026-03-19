@@ -5,7 +5,7 @@ layout: single
 url: /program/
 ---
 
-## What is in store for you
+## What's coming your way?
 
 **Four days of experiential learning and guided methodological reflection** set in a beautiful old monastery, surrounded by inspiring social and ecological initiatives such as a democratic school, community gardens, and organic farming ([learn more about the venue here](/location/)).
 
