@@ -18,11 +18,11 @@ We welcome applications from educators, teachers and students at all stages of t
 
 ### How much does it cost?
 
-We want everyone to be able to attend the summer school, regardless of their financial situation. At the same time, we need to cover the costs. That is why we have opted for a **sliding fee scale, and we ask that you contribute according to your means.**
+We want everyone to be able to attend the summer school, regardless of their financial situation. That is why we have opted for a **sliding fee scale, and we ask that you contribute according to your means.**
 
 We are also offering 7 scholarship spots to those for whom even the reduced fee would make participation impossible.
 
-The summer school is co-funded through the Erasmus+ programme, which is why we are able to offer reduced fees and scholarship options. However, the grant does not cover all costs, so we need contributions from the participants.
+The summer school is co-funded through the Erasmus+ programme, which is why we are able to offer reduced fees and scholarship options. **However, the grant does not cover all costs, so we need contributions from the participants.**
 
 Besides the programme, **the summer school fee includes accommodation and all the meals.**
 ### Fees
