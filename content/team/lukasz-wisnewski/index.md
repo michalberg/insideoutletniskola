@@ -2,7 +2,7 @@
 title: Filip Kňažek
 weight: 2
 params:
-  role: Facilitator & Non Formal Education Lecturer & Coach & Self-discovery Guide
+  role: Educator & Coach & Self-discovery guide
   organisation:
   bio: |
     Filip is a facilitator, coach, and non-formal education lecturer with experience working with groups in the Czech Republic and internationally since 2016. He focuses on education, mindfulness, personal development, teacher wellbeing, and connecting with nature.
