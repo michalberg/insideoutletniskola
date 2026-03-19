@@ -2,6 +2,7 @@
 title: Program
 type: page
 layout: single
+url: /program/
 ---
 
 ## What is in store for you
