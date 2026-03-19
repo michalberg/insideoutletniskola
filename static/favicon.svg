@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Leaf shape -->
+  <path d="M50 10 C80 10, 90 40, 50 90 C10 40, 20 10, 50 10 Z" fill="#c8d600"/>
+  <!-- Stem -->
+  <line x1="50" y1="90" x2="50" y2="95" stroke="#6b8c00" stroke-width="3" stroke-linecap="round"/>
+  <!-- Vein -->
+  <path d="M50 25 Q55 55, 50 85" stroke="#6b8c00" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+</svg>
