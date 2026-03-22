@@ -11,9 +11,9 @@ url: /program/
 
 Through direct experience with well-tested methods of transformative education, the program strengthens participants' capacity to engage in both inner and systemic change through education.
 
-At the same time, education itself becomes a central theme of the summer school. Together, we explore how dominant educational models contribute to today's crises, what alternatives already exist, and how we—as educators—can help shape new forms of learning for a just and sustainable world.
+At the same time, education itself becomes a central theme of the summer school. Together, we explore how dominant educational models contribute to today's crises, the alternative models that already exist, and how we—as educators—can help shape new forms of learning for a just and sustainable world.
 
-We engage the whole person in the learning process. Alongside critical thinking and dialogue, we create space for emotions and embodied experience. Some sessions take place outdoors, and through voluntary work, participants actively contribute to the care of the monastery and its surrounding initiatives.
+We engage the whole person in the learning process. Alongside critical thinking and dialogue, we create space for emotions and embodied experience. Some sessions take place outdoors, and through voluntary physical work, participants actively contribute to the care for the monastery and its surrounding initiatives.
 
 Accommodation on the premises, as well as a full plant-based meal plan, are included in the [fee](/registration/) during the summer school and provided by the venue.
 
@@ -37,14 +37,14 @@ Accommodation on the premises, as well as a full plant-based meal plan, are incl
 ## 18 Tuesday – New perspectives
 
 - What might transformation in education look like, and what would I like to see more of?
-- Expanding imagination and exploring alternative perspectives
+- Expanding the imagination and exploring alternative perspectives
 - Systems thinking
 - Communal care for the space: engaging the body through shared work and deepening relationships through collaboration in small groups
 
-## 19 Wednesday – Competences for Transformation
+## 19 Wednesday – Competencies for Transformation
 
-- What do I need to contribute to the transformation?
-- Competence models for inner and systemic transformation
+- What do I need to be able to contribute to the transformation?
+- Competency models for inner and systemic transformation
 - Skills training and methodological analysis of programmes
 - Open Space (a participatory format for sharing experiences, exploring chosen topics, and co-creating practical applications across diverse contexts)
 - Evening gathering with fire and music
