@@ -28,9 +28,9 @@ Besides the programme, **the summer school fee includes accommodation and all th
 ### Fees
 
 <table><tbody>
-<tr><td><strong>Reduced fee</strong></td><td>€250</td></tr>
-<tr><td><strong>Base fee</strong></td><td>€350</td></tr>
-<tr><td><strong>Solidarity fee</strong></td><td>€450</td></tr>
+<tr><td><strong>Reduced fee</strong></td><td>€275</td></tr>
+<tr><td><strong>Base fee</strong></td><td>€385</td></tr>
+<tr><td><strong>Solidarity fee</strong></td><td>€495</td></tr>
 <tr><td><strong>Scholarship positions</strong></td><td>seven in total</td></tr>
 </tbody></table>
 
@@ -38,8 +38,7 @@ Besides the programme, **the summer school fee includes accommodation and all th
 
 <table><tbody>
 <tr><td><strong>Applications open</strong></td><td>16 March 2026</td></tr>
-<tr><td><strong>Application deadline - early birds</strong></td><td>1 May 2026</td></tr>
-<tr><td><strong>Application deadline (10% increase in fees<br>after 1 May)</strong></td><td>Applications will be open until capacity is reached</td></tr>
+<tr><td><strong>Application deadline</strong></td><td>Applications will be open until capacity is reached</td></tr>
 <tr><td><strong>Decisions communicated</strong></td><td>No later than two weeks after you submit your application</td></tr>
 <tr><td><strong>Cancellation of participation by 16 June</strong></td><td>Full refund</td></tr>
 <tr><td><strong>Cancellation of registration by 16 July</strong></td><td>50% refund</td></tr>
