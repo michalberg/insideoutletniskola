@@ -269,10 +269,11 @@ h1, h2, h3, h4, h5, h6 {
     gap: 2rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
+    justify-content: center;
 }
 
 .iops-contact-bar__item {
-    flex: 1 1 14rem;
+    flex: 0 1 20rem;
     font-size: 0.9rem;
     line-height: 1.7;
 }
