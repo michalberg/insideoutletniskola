@@ -20,7 +20,7 @@ We welcome applications from educators, teachers and students at all stages of t
 
 We want everyone to be able to attend the summer school, regardless of their financial situation. That is why we have opted for a **sliding fee scale, and we ask that you contribute according to your means.**
 
-We are also offering 7 scholarship spots to those for whom even the reduced fee would make participation impossible.
+We also offer scholarships for those who cannot afford to attend even at the reduced rate. The minimum scholarship fee is €150, which covers basic costs for meals and accommodation.
 
 The summer school is co-funded through the Erasmus+ programme, which is why we are able to offer reduced fees and scholarship options. **However, the grant does not cover all costs, so we need contributions from the participants.**
 
@@ -31,7 +31,7 @@ Besides the programme, **the summer school fee includes accommodation and all th
 <tr><td><strong>Reduced fee</strong></td><td>€275</td></tr>
 <tr><td><strong>Base fee</strong></td><td>€385</td></tr>
 <tr><td><strong>Solidarity fee</strong></td><td>€495</td></tr>
-<tr><td><strong>Scholarship positions</strong></td><td>seven in total</td></tr>
+<tr><td><strong>Scholarship fee</strong></td><td>minimum €150</td></tr>
 </tbody></table>
 
 ### Key Dates
