@@ -16,6 +16,8 @@ layout: single
 
 We welcome applications from educators, teachers and students at all stages of their careers who strive for deeper impact and inner transformation in their students and participants.
 
+APPLY UNTIL JUNE 30.
+
 ### How much does it cost?
 
 We want everyone to be able to attend the summer school, regardless of their financial situation. That is why we have opted for a **sliding fee scale, and we ask that you contribute according to your means.**
