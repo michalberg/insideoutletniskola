@@ -16,7 +16,7 @@ layout: single
 
 We welcome applications from educators, teachers and students at all stages of their careers who strive for deeper impact and inner transformation in their students and participants.
 
-APPLY UNTIL JUNE 30.
+<p style="font-size:1.5rem;font-weight:bold;text-align:center;">APPLY UNTIL JUNE 30.</p>
 
 ### How much does it cost?
 
